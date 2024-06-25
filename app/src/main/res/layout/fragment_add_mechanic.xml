@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddMechanicFragment">
+
+    <EditText
+        android:id="@+id/MechanicNameEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mechanic Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/MechanicNumberEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mechanic Phone Number"
+        android:inputType="phone"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/CityEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Area,City"
+        android:inputType="text"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/StateEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter State"
+        android:inputType="text"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/PriceEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Price"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/VehicleNameEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Vehicle Type"
+        android:inputType="text"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/AddMechanicDetailsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Mechanic"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

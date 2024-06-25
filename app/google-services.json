@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "682106434423",
+    "firebase_url": "https://kannammajannakka-default-rtdb.firebaseio.com",
+    "project_id": "kannammajannakka",
+    "storage_bucket": "kannammajannakka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682106434423:android:ac7106303fbf34cdb16772",
+        "android_client_info": {
+          "package_name": "com.example.kannammajannakka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682106434423-cj1u2pr8kfbufcoo6560ti3tdqqa29jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kannammajannakka",
+            "certificate_hash": "1e47b7db4ecf81dd82bbf9b288854b90629aaca8"
+          }
+        },
+        {
+          "client_id": "682106434423-6m5b4cidoe8fa0n4897sivbaed2g1hld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV76tgHoJ2S3mhIMEPwAckJLtSxiG7jo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682106434423-6m5b4cidoe8fa0n4897sivbaed2g1hld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
